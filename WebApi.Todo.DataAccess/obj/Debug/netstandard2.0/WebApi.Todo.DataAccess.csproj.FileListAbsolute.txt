@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\obj\Debug\netstandard2.0\WebApi.Todo.DataAccess.csprojAssemblyReference.cache
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\obj\Debug\netstandard2.0\WebApi.Todo.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\obj\Debug\netstandard2.0\WebApi.Todo.DataAccess.AssemblyInfo.cs
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\obj\Debug\netstandard2.0\WebApi.Todo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\bin\Debug\netstandard2.0\WebApi.Todo.DataAccess.deps.json
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\bin\Debug\netstandard2.0\WebApi.Todo.DataAccess.dll
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\bin\Debug\netstandard2.0\WebApi.Todo.DataAccess.pdb
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\bin\Debug\netstandard2.0\WebApi.Todo.DataModel.dll
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\bin\Debug\netstandard2.0\WebApi.Todo.DataModel.pdb
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\obj\Debug\netstandard2.0\WebApi.Todo.DataAccess.csproj.CopyComplete
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\obj\Debug\netstandard2.0\WebApi.Todo.DataAccess.dll
+C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.DataAccess\obj\Debug\netstandard2.0\WebApi.Todo.DataAccess.pdb
