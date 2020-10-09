@@ -12,5 +12,7 @@ namespace WebApi.Todo.DataModel
         public bool Completed { get; set; }
         public int UserId { get; set; }
         public  User User { get; set; }
+        public IEnumerable<SubTask> SubTasks { get; set; }
+
     }
 }

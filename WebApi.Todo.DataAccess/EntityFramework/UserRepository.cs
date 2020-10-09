@@ -12,6 +12,7 @@ namespace WebApi.Todo.DataAccess.EntityFramework
         public UserRepository(TodosDbContext context)
         {
             _context = context;
+            //  _users = context.Users;
         }
 
         public IEnumerable<User> GetAll()

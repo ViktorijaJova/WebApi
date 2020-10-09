@@ -9,8 +9,8 @@ using WebApi.Todo.DataModel;
 namespace WebApi.Todo.DataModel.Migrations
 {
     [DbContext(typeof(TodosDbContext))]
-    [Migration("20201006122756_Inital")]
-    partial class Inital
+    [Migration("20201009175750_DbTodo")]
+    partial class DbTodo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,8 +43,8 @@ namespace WebApi.Todo.DataModel.Migrations
                     b.ToTable("TodoList");
 
                     b.HasData(
-                        new { Id = 1, Completed = false, Description = "Go to the market and buy vegtables, bread, gin, cigarettes", Title = "Buy groceries", UserId = 1 },
-                        new { Id = 2, Completed = false, Description = "Watch breaking bad, the witcher and narcos", Title = "Finally watch all the tv shows that you have wanted ", UserId = 1 }
+                        new { Id = 1, Completed = false, Description = "Buy Juice", Title = "do this", UserId = 1 },
+                        new { Id = 2, Completed = false, Description = "Learn ASP.NET Core WebApi", Title = "and this", UserId = 1 }
                     );
                 });
 
@@ -71,14 +71,14 @@ namespace WebApi.Todo.DataModel.Migrations
                     b.ToTable("User");
 
                     b.HasData(
-                        new { Id = 1, FirstName = "Nikola", LastName = "Jovanovski", Password = "(?\\?-??3#>L?q", UserName = "NikolaJ" }
+                        new { Id = 1, FirstName = "Viktorija", LastName = "jovanovska", Password = "(?\\?-??3#>L?q", UserName = "ViktorijaJ" }
                     );
                 });
 
             modelBuilder.Entity("WebApi.Todo.DataModel.TodoList", b =>
                 {
                     b.HasOne("WebApi.Todo.DataModel.User", "User")
-                        .WithMany("Todos")
+                        .WithMany("TodoList")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

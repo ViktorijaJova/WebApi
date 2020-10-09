@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj",
       "projectName": "WebApi.Todo.Models",
-      "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

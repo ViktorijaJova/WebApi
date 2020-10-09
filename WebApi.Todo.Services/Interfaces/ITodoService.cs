@@ -12,7 +12,7 @@ namespace WebApi.Todo.Services.Interfaces
         TodoModel GetTodo(int id, int userId);
         void AddTodo(TodoModel request);
         void DeleteTodo(int id, int userId);
-        void ChangeCompletenessStatus(int id, int userId);
+      //  void ChangeStatus(int id, int userId);
 
 
     }

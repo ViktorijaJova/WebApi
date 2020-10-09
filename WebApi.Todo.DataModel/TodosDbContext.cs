@@ -15,13 +15,14 @@ namespace WebApi.Todo.DataModel
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<SubTask> SubTasks { get; set; }
 
         public DbSet<TodoList> Todos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            
+            // User
             modelBuilder.Entity<User>()
                 .ToTable(nameof(User))
                 .HasKey(p => p.Id);
@@ -56,8 +57,23 @@ namespace WebApi.Todo.DataModel
 
             modelBuilder.Entity<TodoList>()
                 .HasOne(p => p.User)
-                .WithMany(p => p.Todos)
+                .WithMany(p => p.TodoList)
                 .HasForeignKey(p => p.UserId);
+
+
+            //SubTask
+            modelBuilder
+             .Entity<SubTask>()
+             .ToTable(nameof(SubTask))
+             .HasKey(x => x.Id);
+
+            modelBuilder
+                .Entity<SubTask>()
+                .HasOne(x => x.ToDoTask)
+                .WithMany(x => x.SubTasks)
+                .HasForeignKey(x => x.Id);
+
+
 
 
             Seed(modelBuilder);
@@ -75,9 +91,9 @@ namespace WebApi.Todo.DataModel
                 new User()
                 {
                     Id = 1,
-                    FirstName = "Nikola",
-                    LastName = "Jovanovski",
-                    UserName = "NikolaJ",
+                    FirstName = "Viktorija",
+                    LastName = "jovanovska",
+                    UserName = "ViktorijaJ",
                     Password = hashedPassword
                 });
             modelBuilder.Entity<TodoList>()
@@ -85,22 +101,28 @@ namespace WebApi.Todo.DataModel
                 new TodoList()
                 {
                     Id = 1,
-                    Title = "Buy groceries",
-                    //Add subtasks
-                    Description = "Go to the market and buy vegtables, bread, gin, cigarettes",
+                    Description = "Buy Juice",
+                    Title = "do this",
                     Completed = false,
                     UserId = 1
                 },
                 new TodoList()
                 {
                     Id = 2,
-                    Title = "Finally watch all the tv shows that you have wanted ",
-                    //add subtasks
-                    Description = "Watch breaking bad, the witcher and narcos",
+                    Description = "Learn ASP.NET Core WebApi",
+                    Title = "and this",
                     Completed = false,
                     UserId = 1
+                },
+                  modelBuilder.Entity<SubTask>()
+                .HasData(
+                new SubTask()
+                {
+                    Id = 1,
+                    Name = "Finish the homework already",
+                    
                 }
-                );
+                ));
         }
     }
 }

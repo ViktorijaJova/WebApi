@@ -7,3 +7,12 @@ C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.Models\obj
 C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.dll
 C:\Users\User\Desktop\AspNet-WebApi-Homeworks\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.pdb
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\bin\Debug\netstandard2.0\WebApi.Todo.Models.deps.json
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\bin\Debug\netstandard2.0\WebApi.Todo.Models.dll
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\bin\Debug\netstandard2.0\WebApi.Todo.Models.pdb
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.csprojAssemblyReference.cache
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.AssemblyInfo.cs
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.dll
+C:\Users\User\Desktop\WebApi-Homework\WebApi\WebApi.Todo\WebApi.Todo.Models\obj\Debug\netstandard2.0\WebApi.Todo.Models.pdb

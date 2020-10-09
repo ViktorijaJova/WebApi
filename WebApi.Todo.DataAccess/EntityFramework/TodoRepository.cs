@@ -16,7 +16,7 @@ namespace WebApi.Todo.DataAccess.EntityFramework
     public IEnumerable<TodoList> GetAll()
     {
         return _context.Todos;
-        //  _context.SaveChanges();
+        // _context.SaveChanges();
     }
 
     public void Add(TodoList entity)

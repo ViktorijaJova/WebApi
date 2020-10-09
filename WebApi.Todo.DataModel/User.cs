@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Dapper.Contrib.Extensions;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace WebApi.Todo.DataModel
@@ -14,6 +17,8 @@ namespace WebApi.Todo.DataModel
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public IEnumerable<TodoList> Todos { get; set; }
+        public IEnumerable<TodoList> TodoList { get; set; }
+
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Application\\WebApi.Todo.Application.csproj": {}
+    "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Application\\WebApi.Todo.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Application\\WebApi.Todo.Application.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Application\\WebApi.Todo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Application\\WebApi.Todo.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Application\\WebApi.Todo.Application.csproj",
         "projectName": "WebApi.Todo.Application",
-        "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Application\\WebApi.Todo.Application.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Application\\WebApi.Todo.Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Application\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj"
+              "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj",
         "projectName": "WebApi.Todo.DataAccess",
-        "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -103,8 +103,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj"
+              "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj",
         "projectName": "WebApi.Todo.DataModel",
-        "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataModel\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -176,6 +176,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[2.1.1, )"
@@ -205,14 +209,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj",
         "projectName": "WebApi.Todo.Models",
-        "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -263,14 +267,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj",
         "projectName": "WebApi.Todo.Services",
-        "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Services\\WebApi.Todo.Services.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Services\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -289,14 +293,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj"
+              "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataAccess\\WebApi.Todo.DataAccess.csproj"
               },
-              "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj"
+              "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.DataModel\\WebApi.Todo.DataModel.csproj"
               },
-              "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AspNet-WebApi-Homeworks\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj"
+              "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApi-Homework\\WebApi\\WebApi.Todo\\WebApi.Todo.Models\\WebApi.Todo.Models.csproj"
               }
             }
           }

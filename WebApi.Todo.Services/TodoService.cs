@@ -27,11 +27,11 @@ namespace WebApi.Todo.Services
         public void AddTodo(TodoModel request)
         {
             var user = _userRepository.GetAll()
-                           .FirstOrDefault(x => x.Id == request.UserId);
+                           .FirstOrDefault(x => x.Id == request.Id);
 
             if (user == null)
             {
-                throw new TodoException("USer does not exist");
+                throw new TodoException(" The user does not exist");
             }
             if (string.IsNullOrWhiteSpace(request.Description))
             {
@@ -62,8 +62,9 @@ namespace WebApi.Todo.Services
             var item = _todoRepository.GetAll().FirstOrDefault(x => x.Id == id && x.UserId == userId);
 
             if (item == null)
-                throw new TodoException("ToDo item  was not found.");
-
+            {
+                throw new TodoException("Todo item  was not found.");
+            }
             _todoRepository.Delete(item);
         }
 
@@ -72,7 +73,9 @@ namespace WebApi.Todo.Services
             var item = _todoRepository.GetAll().FirstOrDefault(x => x.Id == id && x.UserId == userId);
 
             if (item == null)
+            {
                 throw new TodoException("Todo item was not found.");
+            }
 
             return new TodoModel
             {
@@ -86,7 +89,9 @@ namespace WebApi.Todo.Services
 
         public IEnumerable<TodoModel> GetUserTodos(int userId)
         {
-            return _todoRepository.GetAll().Where(x => x.UserId == userId).Select(x => new TodoModel
+            return _todoRepository.GetAll()
+                .Where(x => x.UserId == userId)
+                .Select(x => new TodoModel
             {
                 Id = x.Id,
                 Title = x.Title,
@@ -96,18 +101,5 @@ namespace WebApi.Todo.Services
             }).ToList();
         }
 
-
-
-        public void ChangeCompletenessStatus(int id, int userId)
-        {
-            var item = _todoRepository.GetAll().FirstOrDefault(x => x.Id == id && x.UserId == userId);
-
-            if (item == null)
-                throw new TodoException("Todo item was not found.");
-
-            item.Completed = !item.Completed;
-
-            _todoRepository.Update(item);
-        }
     }
 }

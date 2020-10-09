@@ -3,15 +3,16 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebApi.Todo.DataModel.Migrations
 {
-    public partial class Inital : Migration
+    public partial class DbTodo : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
                 name: "User",
                 columns: table => new
+
                 {
-                    Id = table.Column<int>(nullable: false)
+                Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     UserName = table.Column<string>(maxLength: 50, nullable: false),
                     Password = table.Column<string>(maxLength: 100, nullable: false),
@@ -48,17 +49,17 @@ namespace WebApi.Todo.DataModel.Migrations
             migrationBuilder.InsertData(
                 table: "User",
                 columns: new[] { "Id", "FirstName", "LastName", "Password", "UserName" },
-                values: new object[] { 1, "Nikola", "Jovanovski", "(?\\?-??3#>L?q", "NikolaJ" });
+                values: new object[] { 1, "Viktorija", "jovanovska", "(?\\?-??3#>L?q", "ViktorijaJ" });
 
             migrationBuilder.InsertData(
                 table: "TodoList",
                 columns: new[] { "Id", "Completed", "Description", "Title", "UserId" },
-                values: new object[] { 1, false, "Go to the market and buy vegtables, bread, gin, cigarettes", "Buy groceries", 1 });
+                values: new object[] { 1, false, "Buy Juice", "do this", 1 });
 
             migrationBuilder.InsertData(
                 table: "TodoList",
                 columns: new[] { "Id", "Completed", "Description", "Title", "UserId" },
-                values: new object[] { 2, false, "Watch breaking bad, the witcher and narcos", "Finally watch all the tv shows that you have wanted ", 1 });
+                values: new object[] { 2, false, "Learn ASP.NET Core WebApi", "and this", 1 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_TodoList_UserId",
