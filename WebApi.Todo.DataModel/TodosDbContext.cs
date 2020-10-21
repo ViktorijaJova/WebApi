@@ -113,16 +113,18 @@ namespace WebApi.Todo.DataModel
                     Title = "and this",
                     Completed = false,
                     UserId = 1
-                },
-                  modelBuilder.Entity<SubTask>()
-                .HasData(
-                new SubTask()
-                {
-                    Id = 1,
-                    Name = "Finish the homework already",
-                    
-                }
-                ));
+                });
+
+            /*
+                              modelBuilder.Entity<SubTask>()
+                            .HasData(
+                            new SubTask()
+                            {
+                                Id = 1,
+                                Name = "Finish the homework already",
+
+                            }
+                            )*/
         }
     }
 }
